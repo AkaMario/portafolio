@@ -1,0 +1,43 @@
+body {
+  padding: 11.5rem;
+  text-align: center;
+}
+
+.principal {
+  margin-bottom: 3rem;
+}
+
+.principal h1 {
+  margin-bottom: 0.3rem;
+  font-size: 80px;
+  color: #2e2e2e;
+}
+
+.principal p {
+  margin-top: 0;
+  font-size: 20px;
+  color: #474747;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .principal h1 {
+    font-size: 3rem;
+  }
+
+  .principal p {
+    font-size: 1rem;
+  }
+}

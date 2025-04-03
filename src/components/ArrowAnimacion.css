@@ -1,0 +1,15 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+
+  .flecha {
+    width: 20x;
+    height: 20px;
+  }
+
+}
