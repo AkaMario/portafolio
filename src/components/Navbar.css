@@ -23,11 +23,11 @@
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-a {
+.navbaricons {
   padding: 20px;
 }
 
-a :hover {
+.navbaricons :hover {
   transition: transform 0.3s ease;
   transform: scale(1.1);
 }
@@ -60,6 +60,7 @@ a :hover {
 
 .menu-deslizable ul {
   list-style: none;
+  text-align: left;
   padding: 0;
 }
 
@@ -68,14 +69,24 @@ a :hover {
 }
 
 .menu-deslizable a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.menu-deslizable li:hover {
-  color: #f0f0f0;
-  transition: color 0.3s ease;
+.menu-deslizable a:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+.menu-deslizable a:hover img {
+  filter: brightness(0) invert(0);
+  transition: filter 0.4s ease;
 }
 
 @media (max-width: 768px) {
@@ -87,7 +98,7 @@ a :hover {
     justify-content: center;
   }
 
-  a img {
+  .navbaricons img {
     align-items: center;
     width: 28px;
     height: 28px;

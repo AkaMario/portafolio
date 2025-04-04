@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import MenuImg from "../assets/menu.svg";
 import GithubLogo from "../assets/github.svg";
 import LinkedInLogo from "../assets/linkedin.svg";
+import SobreMiIcon from "../assets/man-sobre-mi.svg";
+import Tecnologias from "../assets/terminal-sharp.svg";
+import Experiencia from "../assets/briefcase.svg";
+import Proyectos from "../assets/layers.svg";
+import Formacion from "../assets/school.svg";
+import Extras from "../assets/code-slash-outline.svg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -18,13 +24,13 @@ function Navbar() {
     <>
     <nav className="navbar">
       <div className="nav">
-        <a className="menu" onClick={toggleMenu}>
+        <a className="navbaricons" onClick={toggleMenu}>
           <img src={MenuImg} alt="Menu" />
         </a>
-        <a href="https://github.com/AkaMario" target="_blank">
+        <a className="navbaricons" href="https://github.com/AkaMario" target="_blank">
           <img src={GithubLogo} alt="Menu" />
         </a>
-        <a href="https://www.linkedin.com/in/mario-uparela-posada-18661632b/" target="_blank">
+        <a className="navbaricons" href="https://www.linkedin.com/in/mario-uparela-posada-18661632b/" target="_blank">
           <img src={LinkedInLogo} alt="Menu" />
         </a>
       </div>
@@ -34,12 +40,12 @@ function Navbar() {
 
     <div className={`menu-deslizable ${menuAbierto ? "abierto" : ""}`}>
         <ul>
-          <li><a href="#inicio">Sobre mi</a></li>
-          <li><a href="#servicios">Tecnologias</a></li>
-          <li><a href="#contacto">Experiencia</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Formacion</a></li>
-          <li><a href="#">Extras</a></li>
+          <li><a href="#"><img src={SobreMiIcon} alt="" />Sobre mi</a></li>
+          <li><a href="#"><img src={Tecnologias} alt="" />Tecnologias</a></li>
+          <li><a href="#"><img src={Experiencia} alt="" />Experiencia</a></li>
+          <li><a href="#"><img src={Proyectos} alt="" />Proyectos</a></li>
+          <li><a href="#"><img src={Formacion} alt="" />Formacion</a></li>
+          <li><a href="#"><img src={Extras} alt="" />Extras</a></li>
         </ul>
       </div>
     </>
