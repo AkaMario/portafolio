@@ -31,7 +31,7 @@ function about() {
         </div>
       </section>
       <section>
-        <div className="tecnologias">
+        <div className="about">
           <h1>Tecnologías</h1>
           <p>Que he usado a lo largo de mi aprendizaje</p>
           <div className="tecnologias-lista">
