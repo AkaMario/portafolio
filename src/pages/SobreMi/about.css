@@ -1,0 +1,92 @@
+.about h1 {
+  margin-bottom: 0.3rem;
+  font-size: 80px;
+  color: #2e2e2e;
+}
+
+.about p {
+  margin-top: 0;
+  font-size: 20px;
+  color: #474747;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.direccion {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+span {
+  font-size: 20px;
+  color: #474747;
+}
+
+.tecnologias h1 {
+  margin-bottom: 0.3rem;
+  font-size: 80px;
+  color: #2e2e2e;
+}
+
+.tecnologias p {
+  margin-top: 0;
+  font-size: 20px;
+  color: #474747;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.tecnologias-lista {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .about h1 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+}

@@ -13,14 +13,19 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 10px;
   background-color: #2e2e2e;
   border-radius: 20px;
-  width: 300px;
-  height: 80px;
+  width: 220px;
+  height: 55px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
 }
 
 .navbaricons {
@@ -44,7 +49,7 @@
 .menu-deslizable {
   position: fixed;
   top: 0;
-  left: -250px;
+  left: -300px;
   height: 100vh;
   background-color: #2e2e2e;
   padding: 3rem;
@@ -65,18 +70,23 @@
 }
 
 .menu-deslizable li {
-  margin-bottom: 4.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .menu-deslizable a {
   display: flex;
+  justify-content: left;
   align-items: center;
   gap: 1rem;
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: background-color 0.4s ease, color 0.4s ease;
   border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  padding: 0 0 0 20px;
+
 }
 
 .menu-deslizable a:hover {
@@ -93,11 +103,8 @@
 
 @media (max-width: 768px) {
   .nav {
-    font-size: 2rem;
     width: 180px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+    height: 40px;
   }
 
   .navbaricons img {

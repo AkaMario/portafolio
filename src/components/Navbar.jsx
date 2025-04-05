@@ -24,14 +24,14 @@ function Navbar() {
     <>
     <nav className="navbar">
       <div className="nav">
-        <a className="navbaricons" onClick={toggleMenu}>
-          <img src={MenuImg} alt="Menu" />
+        <a className="navbaricons" onClick={toggleMenu} >
+          <img className='icon' src={MenuImg} alt="Menu" style={{ width: "40px", height: "auto" }}/>
         </a>
         <a className="navbaricons" href="https://github.com/AkaMario" target="_blank">
-          <img src={GithubLogo} alt="Menu" />
+          <img className='icon' src={GithubLogo} alt="Menu" style={{ width: "30px", height: "auto" }}/>
         </a>
         <a className="navbaricons" href="https://www.linkedin.com/in/mario-uparela-posada-18661632b/" target="_blank">
-          <img src={LinkedInLogo} alt="Menu" />
+          <img className='icon' src={LinkedInLogo} alt="Menu" style={{ width: "30px", height: "auto" }}/>
         </a>
       </div>
     </nav>
