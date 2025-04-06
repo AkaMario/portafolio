@@ -98,14 +98,14 @@
 @media (max-width: 768px) {
   .nav {
     width: 180px;
-    height: 40px;
+    height: 55px;
 
   }
 
   .navbaricons img {
     align-items: center;
-    width: 28px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
   }
 
   .navbar {
