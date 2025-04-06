@@ -3,24 +3,24 @@ body {
   text-align: center;
 }
 
+section {
+  margin-bottom: 130px;
+}
+
 .principal {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .principal h1 {
-  margin-bottom: 0.3rem;
   font-size: 57px;
   color: #2e2e2e;
+  margin: 10px;
 }
 
 .principal p {
   margin-top: 0;
   font-size: 20px;
   color: #474747;
-}
-
-section {
-  padding: 6rem;
 }
 
 

@@ -1,0 +1,31 @@
+{
+  "hash": "a1f62baf",
+  "configHash": "4a65526c",
+  "lockfileHash": "bca0c56e",
+  "browserHash": "d9edfcb3",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a9f0665c",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "69e30b09",
+      "needsInterop": true
+    },
+    "lottie-react": {
+      "src": "../../node_modules/.pnpm/lottie-react@2.4.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/lottie-react/build/index.es.js",
+      "file": "lottie-react.js",
+      "fileHash": "aa72fbe0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-T4JQ6PJL": {
+      "file": "chunk-T4JQ6PJL.js"
+    }
+  }
+}
