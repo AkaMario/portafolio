@@ -5,7 +5,7 @@ import "./Animacion.css"
 
 function Animacion() {
   return (
-    <div className='atomo' style={{ width: 250, height:250 , margin: "0 auto"}}>
+    <div className='atomo'>
         <Lottie animationData={AnimacionAtom} loop={true}></Lottie>
       </div>
   )

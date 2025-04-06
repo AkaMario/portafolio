@@ -1,7 +1,18 @@
+.atomo {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.atomo>div {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 768px) {
   .atomo {
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
   }
 
 }

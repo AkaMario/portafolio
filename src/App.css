@@ -62,4 +62,16 @@ section {
   * {
     box-sizing: border-box;
   }
+
+  .principal h1 {
+    font-size: 2rem;
+  }
+
+  .principal p {
+    font-size: 12px;
+  }
+
+  section {
+    margin-bottom: 65px;
+  }
 }

@@ -107,6 +107,12 @@ span {
   padding: 0;
 }
 
+.contact-tech li:hover {
+  transform: scale(1.10);
+  transition: transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 @media (max-width: 768px) {
 
   body {
@@ -122,21 +128,22 @@ span {
   }
 
   .about h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .about p {
-    font-size: 1rem;
+    font-size: 12px;
   }
 
   span {
-    font-size: 1rem;
+    font-size: 12px;
   }
 
   .contact-tech {
     width: 600px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
   #tecnologias.about {
@@ -144,5 +151,10 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .contact-tech li {
+    width: 190px;
+    height: 30px;
   }
 }
