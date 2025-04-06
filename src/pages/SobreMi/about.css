@@ -1,36 +1,65 @@
 .about h1 {
-  margin-bottom: 0.3rem;
-  font-size: 80px;
+  font-size: 57px;
   color: #2e2e2e;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .about p {
-  margin-top: 0;
   font-size: 20px;
   color: #474747;
-  margin: 2rem;
   justify-content: center;
 }
 
-.direccion {
+#tecnologias.about {
+  width: 900px;
+}
+
+section {
+  padding: 90px;
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sobre-mi {
+  padding: 0px;
 }
 
 .contact {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 3rem;
+  align-items: center;
+  gap: 2rem;
 }
 
-.contact-row {
+.contact-info {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  margin-bottom: 0.5rem;
   justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 10 0;
+  padding: 0;
+}
+
+.contact-info li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.contact-info li>img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+#location.contact-info {
+  padding: 10px 0;
 }
 
 .icon {
@@ -41,27 +70,41 @@
 span {
   font-size: 20px;
   color: #474747;
+  flex-wrap: wrap;
 }
 
-.tecnologias h1 {
-  margin-bottom: 0.3rem;
-  font-size: 80px;
-  color: #2e2e2e;
-}
 
-.tecnologias p {
-  margin-top: 0;
-  font-size: 20px;
-  color: #474747;
-  margin: 2rem;
-  justify-content: center;
-}
-
-.tecnologias-lista {
+.contact-tech {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px 0;
+}
+
+
+.contact-tech li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 190px;
+  height: 30px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+
+}
+
+.contact-tech li>img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-tech li>p {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -88,5 +131,18 @@ span {
 
   span {
     font-size: 1rem;
+  }
+
+  .contact-tech {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #tecnologias.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
