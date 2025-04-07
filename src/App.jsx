@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Animacion from './components/Animacion'
 import AnimacionArrow from './components/ArrowAnimacion'
 import About from './pages/SobreMi/about'
+import Experience from './pages/Experiencias/experience'
 
 
 function App() {
@@ -17,10 +18,13 @@ function App() {
         </div>
         <Animacion/>
       </section>
-        <AnimacionArrow/>
       <section>
        <About/>
       </section>
+      <section>
+        <Experience/>
+      </section>
+      <AnimacionArrow/>
     </>
   )
 }

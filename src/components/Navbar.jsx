@@ -22,6 +22,7 @@ function Navbar() {
   }
   return (
     <>
+    <div className="degradado"></div>
     <nav className="navbar">
       <div className="nav">
         <a className="navbaricons" onClick={toggleMenu} >

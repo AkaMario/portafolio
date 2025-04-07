@@ -121,6 +121,7 @@ span {
     justify-content: center;
     padding: 5rem;
     text-align: center;
+    margin: 0;
   }
 
   div {
@@ -140,10 +141,10 @@ span {
   }
 
   .contact-tech {
-    width: 600px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 430px;
   }
 
   #tecnologias.about {
@@ -154,7 +155,11 @@ span {
   }
 
   .contact-tech li {
-    width: 190px;
+    width: 130px;
     height: 30px;
+  }
+
+  section {
+    padding: 40px;
   }
 }
