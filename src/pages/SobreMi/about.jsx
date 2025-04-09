@@ -7,7 +7,7 @@ import JsIcon from "/src/assets/logo-javascript.svg";
 import TsIcon from "/src/assets/logo-typescript.svg";
 import TailwindIcon from "/src/assets/logo-tailwind.svg";
 import HtmlIcon from "/src/assets/logo-html5.svg";
-import CssIcon from "/src/assets/logo-css.png";
+import CssIcon from "/src/assets/logo-css.svg";
 import PyIcon from "/src/assets/logo-python.svg";
 import FigmaIcon from "/src/assets/logo-figma.svg";
 import "./about.css";

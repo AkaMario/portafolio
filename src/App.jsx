@@ -4,6 +4,8 @@ import Animacion from './components/Animacion'
 import AnimacionArrow from './components/ArrowAnimacion'
 import About from './pages/SobreMi/about'
 import Experience from './pages/Experiencias/experience'
+import Proyectos from './pages/Proyectos/proyectos'
+import Formacion from './pages/Formacion/formacion'
 
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
       </section>
       <section>
         <Experience/>
+      </section>
+      <section>
+        <Proyectos/>
+      </section>
+      <section>
+        <Formacion/>
       </section>
       <AnimacionArrow/>
     </>

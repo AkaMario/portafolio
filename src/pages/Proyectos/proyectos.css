@@ -1,0 +1,36 @@
+.title-project-section {
+  font-size: 57px;
+}
+
+.description-project-section {
+  font-size: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-project-section {
+    font-size: 2rem;
+  }
+
+  .description-project-section {
+    font-size: 12px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #00ffd5;
+    /* cambia el color de las flechas */
+  }
+
+}
