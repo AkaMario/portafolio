@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 700px;
+  height: 430px;
 }
 
 .experiencia-title-container {
@@ -24,21 +24,21 @@
   flex-wrap: wrap;
   margin: 20px 0px;
   padding: 0px;
-  width: 960px;
-  height: 130px;
+  width: 650px;
+  height: 60px;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
 
 .experiencia-title-container p {
-  font-size: 37px;
+  font-size: 22px;
   font-weight: bold;
   margin: 0;
 }
 
 .experiencia-text-container {
-  width: 950px;
-  height: 400px;
+  width: 650px;
+  height: 210px;
   text-align: left;
 
 }
@@ -76,12 +76,12 @@
 }
 
 .experiencia-text-container h3 {
-  font-size: 35px;
+  font-size: 25px;
   margin: 0px 0px 10px 0px;
 }
 
 .experiencia-text-container p {
-  font-size: 25px;
+  font-size: 15px;
   margin: 0px 0px 10px 0px;
 }
 

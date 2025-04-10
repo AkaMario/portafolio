@@ -10,7 +10,7 @@ import Python from "/src/assets/logo-python.svg";
 
 export default function Card() {
   return (
-    <div className='contenedor'>
+    <div className='contenedor-card'>
       <div className='card'>
         <div className='image-project-card'>
           <img src={ImgD} alt="" className='img-default'/>

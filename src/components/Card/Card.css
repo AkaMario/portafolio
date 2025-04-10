@@ -1,10 +1,12 @@
-.contenedor {
+.contenedor-card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0px;
+  margin-top: 100px;
   padding: 0px;
+  width: 400px;
+
 }
 
 .card {
@@ -94,4 +96,76 @@
 .card-tech li p {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .contenedor-card {
+    margin-top: 20px;
+    width: 200px !important;
+  }
+
+  .card-container {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .image-project-card {
+    width: 150px;
+
+    height: 150px;
+  }
+
+  .card-tech {
+    width: 100%;
+    height: 50px;
+  }
+
+  .card-tech li img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .title-project {
+    font-size: 20px;
+  }
+
+  .description-project {
+    font-size: 12px;
+  }
+
+  .image-project-card {
+    width: 210px;
+    height: 210px;
+  }
+
+  .img-default {
+    z-index: 1;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    width: 210px;
+    height: 210px;
+
+  }
+
 }

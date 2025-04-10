@@ -27,10 +27,4 @@
     font-size: 12px;
   }
 
-  .swiper-button-prev,
-  .swiper-button-next {
-    color: #00ffd5;
-    /* cambia el color de las flechas */
-  }
-
 }
